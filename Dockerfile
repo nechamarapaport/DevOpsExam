@@ -13,7 +13,10 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "C:\Users\User\Desktop\exam-Devops\DevOpsExam" ]
+CMD ["python", "convert_image_to_pdf.py"]
+
+
+
 
 
 
