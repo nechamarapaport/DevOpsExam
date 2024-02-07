@@ -6,7 +6,7 @@
 # # $ docker run -it images output 
 
   
-# # docker run --name="my-python-program" -v ${PWD}/images:/app/images -v ${PWD}/output:/app/output  -e PDF_NAME=pictures docker-git 
+# # docker run - it --name="my-python-program" -v ${PWD}/images:/app/images -v ${PWD}/output:/app/output  -e PDF_NAME=pictures docker-git 
 
 # # git branch newBranch
 
